@@ -1,11 +1,12 @@
 @import url("grid.css");
 @import url("images.css");
+@import url("nav.css");
+
 
 body {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: small;
   line-height: 1.6em;
-  background-color: #F7CDCD;
 }
 
 h1 {

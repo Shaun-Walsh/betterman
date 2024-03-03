@@ -1,4 +1,7 @@
-.main-img {
-  display: block;
-  margin: 0 auto;
+.main-img {        
+        background: url("/images/logo.jpg") no-repeat;
+        background-size: cover;
+        border: 6px solid #333;
+        margin: 20px;
+
 }
