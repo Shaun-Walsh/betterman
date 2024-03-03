@@ -2,13 +2,28 @@
 @import url("images.css");
 
 body {
-  font-family: sans-serif;
-}
-
-h1, h2 {
-  color: gray
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: small;
+  line-height: 1.6em;
+  background-color: #F7CDCD;
 }
 
 h1 {
+  color: #F1296B;
+}
+h2 {
+  color: #007e7e;
   border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  
 }
