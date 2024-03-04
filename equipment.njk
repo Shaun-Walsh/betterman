@@ -1,51 +1,24 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Betterman</title>
-    <link rel="stylesheet" href="/css/home.css">
-  </head>
-  <body>
-  <img src="/images/logo.jpg" class="main-img">
-  <div class="container">
-    <div class="maincontent">
-    <div class="primary">
-    <h1> Equipment </h1>
-  <p>
-  <h2> Live </h2>
-  Maui 28 g2 Blurb and image
-  soundcraft blurbs and image
-  mx5 blurb and image
-  Guitars
-  <h2> Solo</h2>
-  guitar
-  bose
-  mice
-  Recording
-  Mics
-  Interface
-  Reaper
-  </p>
-  </div>
-  </div>
-
-  <div class="sidebar">
-  <div id="navigation">
-        <ul id="menu">
-          <li><a href="/">Home</a></li>
-          <li><a href="/bio/">About</a></li>
-          <li><a href="/dates/">Dates</a></li>
-          <li><a href="/media/">Media</a></li>
-          <li><a href="/gallery/">Gallery</a></li>
-          <li class="active"><a href="/equipment/">Equipment</a></li>
-          <li><a href="/setlist/">Setlist</a></li>
-          <li><a href="/instrumental/">Instrumental</a></li>
-          <li><a href="/weddings/">Weddings</a></li>
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </div>
-</div>
-</div>
-{% include "footer.njk" %}
- </body>
-</html>
+---
+layout: layout.njk
+---            
+            <div id="maincontent">
+           <h1> Equipment </h1>
+              <p>
+              <h2> Live </h2>
+              Maui 28 g2 Blurb and image
+              soundcraft blurbs and image
+              mx5 blurb and image
+              Guitars
+              <h2> Solo</h2>
+              guitar
+              bose
+              mice
+              Recording
+              Mics
+              Interface
+              Reaper
+              </p>
+            </div>
+              <div id="sidebar">
+              {% include "nav.njk" %}
+              </div>

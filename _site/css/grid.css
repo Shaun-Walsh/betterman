@@ -1,18 +1,35 @@
 .container {
   display: grid;
-  grid-template-columns: 5% 55% 20% 5%;
-  grid-gap: 5%;
-  background-color: #F7CDCD;
+  grid-template-columns: 5% 63% 18% 5%;
+  grid-gap: 3%;
 }
 
-.maincontent {
+#header {
   grid-column-start: 2;
+  grid-column-end : span 2;
+  background-color: #F8CCCC;
+
 }
 
-.sidebar {
-  grid-column-start: 3;
+#maincontent {
+  grid-column-start: 2;
+  background-color: #F8CCCC;
 }
 
-.footer {
+#sidebar {
   grid-column-start: 3;
+  background-color: #F8CCCC;
+}
+
+.navigation {
+  grid-column-start: 3;
+  background-color: #F8CCCC;
+}
+
+
+
+#footer {
+  grid-column-start: 2;
+  grid-column-end : span 2;
+  background-color: #F8CCCC;
 }

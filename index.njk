@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Betterman</title>
-    <link rel="stylesheet" href="/css/home.css">
-  </head>
-  <body>
-  <img src="/images/logo.jpg" class="main-img">
-  <div class="container">
-    <div class="maincontent">
-    <div class="primary">
-    <h1> Welcome to Betterman </h1>
-  <p>
-  Welcome to Betterman
-  </div>
-  </div>
-  <div class="sidebar">
-     <div id="navigation">
-        <ul id="menu">
-          <li class ="active"><a href="/">Home</a></li>
-          <li><a href="/bio/">About</a></li>
-          <li><a href="/dates/">Dates</a></li>
-          <li><a href="/media/">Media</a></li>
-          <li><a href="/gallery/">Gallery</a></li>
-          <li><a href="/equipment/">Equipment</a></li>
-          <li><a href="/setlist/">Setlist</a></li>
-          <li><a href="/instrumental/">Instrumental</a></li>
-          <li><a href="/weddings/">Weddings</a></li>
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </div>
-</div>
-</div>
-{% include "footer.njk" %}
- </body>
-</html>
+---
+layout: layout.njk
+---            
+            <div id="maincontent">
+                <p>
+                <h2>Welcome to Betterman, one of the South East's most popular groups.
+                </h2> 
+                </p>
+            </div>
+              <div id="sidebar">
+              {% include "nav.njk" %}
+              </div>
