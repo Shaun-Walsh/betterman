@@ -6,10 +6,14 @@
     <link rel="stylesheet" href="/css/home.css">
   </head>
     <body>
-      <img src="/images/logo.jpg" alt="Betterman Logo" class="main-img">
         <div class="container">
-          {% include "header.njk" %}
+        {% include "header.njk" %}
+        <div id="sidebar">
+              {% include "nav.njk" %}
+              </div>
+
            {{ content | safe }}
+              
           {% include "footer.njk" %}
         </div>
     </body>

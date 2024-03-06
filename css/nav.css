@@ -1,7 +1,6 @@
 ul#menu li {
   display: list-item;
-  padding-right: 1em;
-  padding-left: 1em;
+  list-style-type: none;
 }
 
 ul#menu a {
@@ -9,7 +8,7 @@ ul#menu a {
 }
 
 #menu li.active a {
-  background: black;
-  padding: .5em 2em .5em 2em;
+  background: #F1296B;
+  padding: .5em 1em .5em 1em;
   color: white;
 }

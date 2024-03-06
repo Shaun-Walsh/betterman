@@ -1,9 +1,48 @@
 .main-img {
   display: block;
-  width: 84%;
-  height: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 12px;
-
+  width: 50%;
 }
+
+.index-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.insta-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 25%;
+}
+
+.facebook-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 25%;
+}
+
+.shaun-img {
+  float: right; 
+  margin: 5px;
+  width: 25%;
+}
+
+.johnny-img {
+  float: left; 
+  margin: 5px;
+  width: 25%;
+}
+
+
+

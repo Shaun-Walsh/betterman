@@ -1,14 +1,12 @@
 <nav id="navigation">
-                  <ul id="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/bio/">About</a></li>
-                    <li><a href="/dates/">Dates</a></li>
-                    <li><a href="/media/">Media</a></li>
-                    <li><a href="/gallery/">Gallery</a></li>
-                    <li><a href="/equipment/">Equipment</a></li>
-                    <li><a href="/setlist/">Setlist</a></li>
-                    <li><a href="/instrumental/">Instrumental</a></li>
-                    <li><a href="/weddings/">Weddings</a></li>
-                    <li><a href="/contact/">Contact</a></li>
-                  </ul>
-                </nav>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul id="menu">
+    {%- for entry in navPages %}
+      <li{% if entry.url == page.url %} class="active" {% endif %}>
+        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+  </ul>
+  <a href="https://www.instagram.com/bettermanband"><img src="/images/insta.png" alt="Instagram logo" class="insta-img"></a>
+  <a href="https://www.facebook.com/bettermanwaterford/"><img src="/images/facebook.png" alt="Facebook logo" class="facebook-img"></a>
+</nav>
