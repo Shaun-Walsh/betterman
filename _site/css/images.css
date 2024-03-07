@@ -44,5 +44,41 @@
   width: 25%;
 }
 
+.email-img { 
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 
+.setlist-img {
+  float: right; 
+  margin: 16px;
+  width: 50%;
+}
+
+.classical-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.wedding-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.calendar-img {
+  float: right; 
+  margin: 16px;
+  width: 50%;
+}
 
