@@ -16,20 +16,18 @@
 
 .insta-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  float: right;
   width: 25%;
+  margin-top: 16px;
+  margin-right: 32px;
 }
 
 .facebook-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  float: left;
   width: 25%;
+  margin-top: 16px;
+  margin-left: 32px;
 }
 
 .shaun-img {
@@ -46,16 +44,10 @@
 
 .email-img { 
   display: block;
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-}
-
-.setlist-img {
-  float: right; 
-  margin: 16px;
-  width: 50%;
+  margin-bottom: 12px;
+  width: 45%;
 }
 
 .classical-img {
@@ -79,6 +71,7 @@
 .calendar-img {
   float: right; 
   margin: 16px;
-  width: 50%;
+  width: 30%;
 }
+
 

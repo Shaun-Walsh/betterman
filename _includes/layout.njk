@@ -5,16 +5,16 @@
     <title>Betterman</title>
     <link rel="stylesheet" href="/css/home.css">
   </head>
-    <body>
+      <body>
         <div class="container">
-        {% include "header.njk" %}
-        <div id="sidebar">
-              {% include "nav.njk" %}
-              </div>
+          {% include "header.njk" %}
+          <div id="sidebar">
+            {% include "nav.njk" %}
+          </div>
 
-           {{ content | safe }}
-              
-          {% include "footer.njk" %}
+             {{ content | safe }}
+                
+            {% include "footer.njk" %}
         </div>
-    </body>
+      </body>
 </html>

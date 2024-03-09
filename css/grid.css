@@ -8,34 +8,44 @@
   grid-column-start: 2;
   grid-column-end : span 2;
   background-color: #F8CCCC;
+  border : solid 16px;
+  border-color: #862E2E;
 
 }
 
 #sidebar {
   grid-column-start: 2;
-  background-color: #F8CCCC;
+  background-color: #862E2E;
+  margin-left: auto;
+  border : solid 16px;
+  border-color: #F8CCCC;
 }
+
 #maincontent {
   grid-column-start: 3;
-  background-color: #F8CCCC;
+  background-color: #862E2E;
+  border : solid 16px;
+  border-color: #F8CCCC;
 }
 
 #footer {
   grid-column-start: 2;
   grid-column-end : span 2;
   background-color: #F8CCCC;
+  border : solid 16px;
+  border-color: #862E2E;
 }
-/*Flexbox code and information comes from https://www.w3schools.com/css/css3_flexbox.asp*/
+
+/*Flexbox code and information comes from https://www.w3schools.com/css/css3_flexbox.asp and https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery*/
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-  flex: 33%;
-  max-width: 33%;
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 
@@ -43,18 +53,3 @@
   margin-top: 8px;
   vertical-align: middle;
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
