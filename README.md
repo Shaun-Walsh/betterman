@@ -1,5 +1,5 @@
 # Betterman
-Promotional website for my music group
+Promotional website for my music group available at https://betterman.netlify.app/
 
 ## Shaun Walsh 20005831
 
@@ -11,7 +11,7 @@ __sidebar__  _____________main content______________________
 
 ___________________________footer___________________________
 
-layout. Navigation is handled in the sidebar. This is implemented by the 11ty navigation plugin. The website makes use of nunjucks partials/templating, and features semantic elements. There is a flexbox implemented on the gallery page. 
+layout. Navigation is handled in the sidebar. This is implemented by the 11ty navigation plugin. The website makes use of nunjucks partials/templating, and features semantic elements. There is a flexbox implemented on the gallery page. The code is pushed to github and automatically built and deployed on netlify.
 
 
 ## Reference
