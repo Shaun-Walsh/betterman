@@ -22,3 +22,5 @@ Source for understanding the flexbox and implementing it https://www.w3schools.c
 This source was used to remove the colouring for links before and after they have been clicked to ensure a more uniform look for the project https://www.w3schools.com/css/css_link.asp
 
 This website was used to remove the background from several images used in the project https://www.remove.bg/
+
+Copyright 2024
